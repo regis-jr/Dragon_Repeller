@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+body {
+    background-image: url('background_img.jfif');
+    background-size: cover;
+    background-position: center;
+    font-family: 'IM Fell English', serif;
+    color: #4c1c1c; 
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #4c1c1c; 
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#startScreen {
+    margin-top: 50px;
+}
+
+#startText {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+#startText p::first-letter{
+    font-size: 35px;
+    font-weight: bold; 
+}
+
+#startButton {
+    cursor: pointer;
+    color: #4c1c1c; 
+    background-color: #8c7c7c; 
+    border: 2px solid #4c1c1c; 
+    padding: 12px 24px;
+    margin: 20px 0;
+    font-size: 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Garamond', serif; 
+}
+
+#startButton:hover {
+    background-color: #4c1c1c; 
+    color: #ffffff; 
+}
+
+#stats {
+    border: 2px solid #8c7c7c; 
+    background-color: #c3bfbf; 
+    color: #4c1c1c; 
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px; 
+}
+
+#monsterStats {
+    display: none;
+    border: 2px solid #8c7c7c; 
+    background-color: #c3bfbf; 
+    color: #4c1c1c; 
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px; 
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#text {    
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px; 
+    line-height: 1.5; 
+}
+
+#text:first-letter {
+    font-size: 35px;
+    font-weight: bold; 
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #8c7c7c; 
+    background-color: #c3bfbf; 
+    border-radius: 8px;
+}
+
+#controls button {
+    cursor: pointer;
+    color: #4c1c1c; 
+    background-color: #8c7c7c; 
+    border: 2px solid #4c1c1c; 
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Garamond', serif; 
+}
+
+#controls button:hover {
+    background-color: #4c1c1c; 
+    color: #ffffff; 
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover; 
+        background-position: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: cover; 
+        background-position: center; 
+    }
+}
+
+

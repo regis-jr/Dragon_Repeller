@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG - Dragon Repeller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <audio id="backgroundMusic" loop>
+            <source src="medieval-background-196571.mp3" type="audio/mp3">
+        </audio>
+
+        <div id="startScreen">
+            <div id="startText">
+                <h2>Bem-vindo ao Dragon Repeller!</h2>
+                <p>Você deve derrotar o dragão que está impedindo as pessoas de saírem da cidade. 
+                Não subestime essa aventura! Considere aumentar sua saúde, investir em melhores armas e escolher bem seus inimigos.</p>
+            </div>
+            <button id="startButton">Iniciar Jogo</button>
+        </div>
+
+        <div id="stats" style="display: none;">            
+            <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat">Saúde: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">Moedas:  <strong><span id="goldText">50</span></strong></span>
+        </div>
+        <div id="controls" style="display: none;">
+            <button id="button1">Vá para loja</button>
+            <button id="button2">Vá para a caverna</button>
+            <button id="button3">Enfrentar o dragão</button>
+        </div>
+        <div id="monsterStats" style="display: none;">
+            <span class="stat">Monstro: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Saúde: <strong><span id="monsterHealth"></span></strong></span>
+        </div>        
+            <div id="text" style="display: none;">
+            
+            </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
